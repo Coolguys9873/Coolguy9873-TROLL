@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>Open URL in New Tab </title>
+</head>
+
+<body>
+
+    <p> Click the button to open
+        <b> bloxd.io </b>
+        in new tab
+    </p>
+
+
+    <button onclick="NewTab()">
+        Open Bloxd.io
+    </button>
+
+    <script>
+        function NewTab() {
+            window.open(
+                "https://bloxd.io", "_blank");
+        }
+    </script>
+
+</body>
+
+</html>
