@@ -1,0 +1,321 @@
+var style = document.createElement('style');
+style.innerHTML = '.hide {display: none;}';
+document.head.appendChild(style);
+
+var div = document.createElement('div');
+var id = document.createAttribute("id");
+id.value = 'menu';
+div.setAttributeNode(id);
+
+id = document.createAttribute("style");
+id.value = 'dysplay:none; position: absolute; z-index: 10; background-color: blue;';
+div.setAttributeNode(id);
+id = document.createAttribute("class");
+id.value = 'hide';
+div.setAttributeNode(id);
+document.body.insertBefore(div,document.getElementById('game-wrapper'));
+
+var div1 = document.createElement('div');
+var id = document.createAttribute("id");
+id.value = 'submenu';
+div1.setAttributeNode(id);
+
+id = document.createAttribute("style");
+id.value = 'dysplay:none; position: absolute; left: 16.73%; z-index: 10; background-color: green;';
+div1.setAttributeNode(id);
+id = document.createAttribute("class");
+id.value = 'hide';
+div1.setAttributeNode(id);
+document.body.insertBefore(div1,document.getElementById('game-wrapper'));
+
+id = document.createElement("p");
+id.innerHTML = 'Pin Tab';
+var idea = document.createAttribute('id');
+idea.value = 'tele';
+id.setAttributeNode(idea);
+var idea = document.createAttribute('title');
+idea.value = 'Pins this tab';
+id.setAttributeNode(idea);
+div.appendChild(document.createElement('br'));
+div.appendChild(document.createElement('br'));
+div.appendChild(id);
+
+id = document.createElement("p");
+id.innerHTML = 'Follow Coolguys9873 On Scratch';
+var idea = document.createAttribute('id');
+idea.value = 'follow';
+id.setAttributeNode(idea);
+var idea = document.createAttribute('title');
+idea.value = 'Follows Coolguys9873';
+id.setAttributeNode(idea);
+div.appendChild(id);
+
+id = document.createElement("p");
+id.innerHTML = 'Panic Button';
+var idea = document.createAttribute('id');
+idea.value = 'Panic';
+id.setAttributeNode(idea);
+var idea = document.createAttribute('title');
+idea.value = 'Hides this web page, a very useful panic button';
+id.setAttributeNode(idea);
+div.appendChild(id);
+
+id = document.createElement("p");
+id.innerHTML = 'Shut Down Computer';
+var idea = document.createAttribute('id');
+idea.value = 'shut down';
+id.setAttributeNode(idea);
+var idea = document.createAttribute('title');
+idea.value = 'Shuts down your computer';
+id.setAttributeNode(idea);
+div1.appendChild(id);
+
+id = document.createElement("p");
+id.innerHTML = 'Skip Loading Screens';
+var idea = document.createAttribute('id');
+idea.value = 'Skip';
+id.setAttributeNode(idea);
+var idea = document.createAttribute('title');
+idea.value = 'Skips all Loading screens';
+id.setAttributeNode(idea);
+div.appendChild(id);
+
+id = document.createElement("p");
+id.innerHTML = 'Lots of Money';
+var idea = document.createAttribute('id');
+idea.value = 'money';
+id.setAttributeNode(idea);
+var idea = document.createAttribute('title');
+idea.value = 'Gives you a lot of money in any game';
+id.setAttributeNode(idea);
+div1.appendChild(id);
+
+id = document.createElement("p");
+id.innerHTML = '100 Gems';
+var idea = document.createAttribute('id');
+idea.value = 'gems';
+id.setAttributeNode(idea);
+var idea = document.createAttribute('title');
+idea.value = 'Gives you 100 gems in any game';
+id.setAttributeNode(idea);
+div1.appendChild(id);
+
+id = document.createElement("p");
+id.innerHTML = 'Get All Items';
+var idea = document.createAttribute('id');
+idea.value = 'items';
+id.setAttributeNode(idea);
+var idea = document.createAttribute('title');
+idea.value = 'Gets you all the items in any game';
+id.setAttributeNode(idea);
+div.appendChild(id);
+
+id = document.createElement("p");
+id.innerHTML = 'Speed Up Game';
+var idea = document.createAttribute('id');
+idea.value = 'speed';
+id.setAttributeNode(idea);
+var idea = document.createAttribute('title');
+idea.value = 'Makes your game go fast';
+id.setAttributeNode(idea);
+div.appendChild(id);
+
+id = document.createElement("p");
+id.innerHTML = 'Crash The Game';
+var idea = document.createAttribute('id');
+idea.value = 'crash';
+id.setAttributeNode(idea);
+var idea = document.createAttribute('title');
+idea.value = 'Crashes your game';
+id.setAttributeNode(idea);
+div.appendChild(id);
+
+id = document.createElement("p");
+id.innerHTML = 'Coolguys9873';
+var idea = document.createAttribute('id');
+idea.value = 'Coolguys9873';
+id.setAttributeNode(idea);
+var idea = document.createAttribute('title');
+idea.value = 'Note: Before using any hacks follow Coolguys9873 on scratch';
+id.setAttributeNode(idea);
+div.appendChild(id);
+
+id = document.createElement("p");
+id.innerHTML = 'Normal Speed';
+var idea = document.createAttribute('id');
+idea.value = 'notspeed';
+id.setAttributeNode(idea);
+var idea = document.createAttribute('title');
+idea.value = 'Sets your speed to normal';
+id.setAttributeNode(idea);
+div.appendChild(id);
+
+id = document.createElement("p");
+id.innerHTML = 'Insta Kill';
+var idea = document.createAttribute('id');
+idea.value = 'instakill';
+id.setAttributeNode(idea);
+var idea = document.createAttribute('title');
+idea.value = 'Insta kills all things in your way in any game';
+id.setAttributeNode(idea);
+div1.appendChild(id);
+
+id = document.createElement("p");
+id.innerHTML = 'Get all Pets/monsters/fruits';
+var idea = document.createAttribute('id');
+idea.value = 'pets';
+id.setAttributeNode(idea);
+var idea = document.createAttribute('title');
+idea.value = 'Gives you all pets of any rarity in any game';
+id.setAttributeNode(idea);
+div.appendChild(id);
+
+id = document.createElement("p");
+id.innerHTML = 'SubMenu';
+var idea = document.createAttribute('id');
+idea.value = 'sub';
+id.setAttributeNode(idea);
+var idea = document.createAttribute('title');
+idea.value = 'Creates a sub menu';
+id.setAttributeNode(idea);
+div.appendChild(id);
+
+id = document.createElement("p");
+id.innerHTML = 'Unlock all Zones/Areas';
+var idea = document.createAttribute('id');
+idea.value = 'zones';
+id.setAttributeNode(idea);
+var idea = document.createAttribute('title');
+idea.value = 'Unlocks all zones/areas in any game';
+id.setAttributeNode(idea);
+div.appendChild(id);
+
+id = document.createElement("p");
+id.innerHTML = 'Max Energy';
+var idea = document.createAttribute('id');
+idea.value = 'hype';
+id.setAttributeNode(idea);
+var idea = document.createAttribute('title');
+idea.value = 'Hypes up your energy for your computer';
+id.setAttributeNode(idea);
+div1.appendChild(id);
+
+id = document.createElement("p");
+id.innerHTML = 'Get all Furniture';
+var idea = document.createAttribute('id');
+idea.value = 'furnosh';
+id.setAttributeNode(idea);
+var idea = document.createAttribute('title');
+idea.value = 'Gives you all furniture in any game';
+id.setAttributeNode(idea);
+div.appendChild(id);
+
+id = document.createElement("p");
+id.innerHTML = 'All Pets/monsters/fruits max level';
+var idea = document.createAttribute('id');
+idea.value = 'petlevel';
+id.setAttributeNode(idea);
+var idea = document.createAttribute('title');
+idea.value = 'Makes all your pets level 100. Use with get all pets to have every max level pet/monster/fruit';
+id.setAttributeNode(idea);
+div.appendChild(id);
+
+id = document.createElement("p");
+id.innerHTML = 'Enemy Level One';
+var idea = document.createAttribute('id');
+idea.value = 'mon';
+id.setAttributeNode(idea);
+var idea = document.createAttribute('title');
+idea.value = 'Makes Enemies All Level One';
+id.setAttributeNode(idea);
+div1.appendChild(id);
+
+id = document.createElement("p");
+id.innerHTML = 'Invincible';
+var idea = document.createAttribute('id');
+idea.value = 'tryme';
+id.setAttributeNode(idea);
+var idea = document.createAttribute('title');
+idea.value = 'Makes You Invincible in any game';
+id.setAttributeNode(idea);
+div1.appendChild(id);
+
+id = document.createElement("p");
+id.innerHTML = 'Level Change';
+var idea = document.createAttribute('id');
+idea.value = 'grade';
+id.setAttributeNode(idea);
+var idea = document.createAttribute('title');
+idea.value = 'Changes your level, reload to take affect';
+id.setAttributeNode(idea);
+div1.appendChild(id);
+
+id = document.createElement("p");
+id.innerHTML = 'Made by Coolguys9873';
+var idea = document.createAttribute('id');
+idea.value = 'Coolguys9873';
+id.setAttributeNode(idea);
+var idea = document.createAttribute('title');
+idea.value = 'Credits to Coolguys9873';
+id.setAttributeNode(idea);
+div1.appendChild(id);
+
+var e = document.createElement("input");
+var a = document.createTextNode("Cheats");
+var body = document.getElementsByTagName("body");
+
+e.appendChild(a);
+
+a = document.createAttribute('style');
+a.value = 'position: absolute; z-index: 20; width: 120px; height: 40px;';
+e.setAttributeNode(a);
+
+a = document.createAttribute('title');
+a.value = "Coolguys9873";
+e.setAttributeNode(a);
+
+a = document.createAttribute('type');
+a.value = 'image';
+e.setAttributeNode(a);
+
+a = document.createAttribute('id');
+a.value = 'cheatButton';
+
+e.setAttributeNode(a);
+
+body[0].insertBefore(e, document.getElementById('game-wrapper'));
+
+document.getElementById("cheatButton").addEventListener("click", disp);
+document.getElementById('sub').addEventListener("click", disp1);
+
+document.getElementById('tele').addEventListener("click", teleport);
+document.getElementById('member' ).addEventListener("click", member);
+document.getElementById('escape').addEventListener("click", escape);
+document.getElementById('level').addEventListener("click", level);
+document.getElementById('tut').addEventListener("click", tut);
+document.getElementById('greed').addEventListener("click", greed);
+document.getElementById('conjure').addEventListener("click", conjure);
+document.getElementById('items').addEventListener("click", item);
+document.getElementById('sped').addEventListener("click", sped);
+document.getElementById('notsped').addEventListener("click", notsped);
+document.getElementById('instakill').addEventListener("click", instakill);
+document.getElementById('pets').addEventListener("click", pets);
+document.getElementById('zones').addEventListener("click", zones);
+document.getElementById('hype').addEventListener("click", hype);
+document.getElementById('furnosh').addEventListener("click", furnosh);
+document.getElementById('petlevel').addEventListener("click", petlevel);
+document.getElementById('mon').addEventListener("click", mon);
+document.getElementById('tryme').addEventListener("click", tryme);
+document.getElementById('grade').addEventListener("click", grade);
+
+function disp1(){
+    document.getElementById('submenu').classList.toggle("hide");
+}
+
+function disp(){
+    if(document.getElementById('submenu').classList.value != "hide"){
+        document.getElementById('submenu').classList.toggle("hide");
+    }
+    document.getElementById('menu').classList.toggle("hide");
+
+}
